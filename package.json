@@ -2,12 +2,26 @@
   "name": "aneio",
   "version": "1.0.0",
   "description": "A Simple HTTP Client Library",
-  "main": "index.js",
+  "main": "aneio.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "aneio",
+    "http client",
+    "https client",
+    "fetch library",
+    "axios alternative",
+    "nodejs http",
+    "nodejs https",
+    "http request",
+    "https request",
+    "lightweight library",
+    "nodejs core",
+    "REST client",
+    "simple http client"
+  ],
   "author": "",
   "license": "ISC"
 }

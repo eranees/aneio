@@ -1,4 +1,4 @@
-import { Aneio } from './index.js';
+import { Aneio } from './aneio.js'
 
 const client = new Aneio('https://jsonplaceholder.typicode.com');
 

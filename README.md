@@ -1,6 +1,6 @@
 # Aneio - A Simple HTTP Client Library
 
-### Aneio is a lightweight HTTP client built on Node.js core `http` and `https` modules. It provides a simple interface for making HTTP requests, similar to popular libraries like Axios, but without any external dependencies.
+Aneio is a lightweight HTTP client built on Node.js core `http` and `https` modules. It provides a simple interface for making HTTP requests, similar to popular libraries like Axios, but without any external dependencies.
 
 ## Features
 

@@ -13,7 +13,7 @@ Aneio is a lightweight HTTP client built on Node.js core `http` and `https` modu
 ### You can use this library by cloning the repository or copying the `aneio` folder to your project.
 
 ```bash
-git clone git@github.com:eranees/aneio.git
+https://github.com/eranees/aneio.git
 ```
 
 ### Alternatively, install the package directly using npm:
@@ -26,14 +26,29 @@ npm install aneio
 
 ## Initialization
 
+### Important: Add "type": "module" in package.json
+
+To use the library with ES Modules, ensure your package.json includes:
+
 To start using Aneio, you need to create an instance of the client with an optional base URL.
 
 ```javascript
-const Aneio = require("./aneio");
+{
+  "type": "module"
+}
+```
+
+## Initialization
+
+To start using Aneio, you need to create an instance of the client with an optional base URL.
+
+```javascript
+import { Aneio } from "aneio";
+
 const client = new Aneio("https://jsonplaceholder.typicode.com");
 ```
 
-# Making Requests
+# Example: Making a GET Request
 
 ## GET Request
 
